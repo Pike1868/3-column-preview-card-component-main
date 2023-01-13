@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./images/3-col-cards-solution-img.png)
+![](images/3-col-cards-solution-img.png)
 
 ### Links
 
