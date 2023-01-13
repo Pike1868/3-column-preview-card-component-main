@@ -78,6 +78,16 @@
   text-decoration: none;
   padding: 0.5em;
 }
+
+.footer {
+  font-family: "Lexend Deca";
+}
+
+.footer a {
+  text-decoration: none;
+  color: hsl(31, 77%, 52%);
+  font-weight: 700;
+}
 /* =====COLOR & FONTS===== */
 
 /* ===== LAYOUT ======= */
@@ -91,7 +101,7 @@ body {
 .container {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 3(1fr);
+  grid-template-rows: 3 (1fr);
   margin-bottom: 3em;
 }
 
@@ -114,7 +124,7 @@ body {
   max-width: 64px;
 }
 
-.card__title{
+.card__title {
   margin-top: 1em;
 }
 
@@ -135,13 +145,11 @@ body {
 /* ===== Media Queries ======= */
 
 @media (min-width: 740px) {
-
   /* Using display flex to change layout from cards stacked on top of each other to beside each other */
   .wrapper {
-    display: flex; 
+    display: flex;
   }
 
-  
   .card {
     padding: 1em 3em;
     max-width: 375px;
