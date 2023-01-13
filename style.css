@@ -1,0 +1,156 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 16px;
+}
+
+/* =====COLOR & FONTS===== */
+
+.sedan {
+  background: hsl(31, 77%, 52%);
+}
+
+.suv {
+  background: hsl(184, 100%, 22%);
+}
+
+.luxury {
+  background: hsl(179, 100%, 13%);
+}
+
+.card__btn--sedan {
+  color: hsl(31, 77%, 52%);
+}
+
+.card__btn--suv {
+  color: hsl(184, 100%, 22%);
+}
+
+.card__btn--luxury {
+  color: hsl(179, 100%, 13%);
+}
+
+.card__btn--sedan:hover {
+  background-color: hsl(31, 77%, 52%);
+  border: 2px solid hsl(0, 0%, 95%);
+  color: hsl(0, 0%, 95%);
+}
+
+.card__btn--suv:hover {
+  background-color: hsl(184, 100%, 22%);
+  border: 2px solid hsl(0, 0%, 95%);
+  color: hsl(0, 0%, 95%);
+}
+
+.card__btn--luxury:hover {
+  background-color: hsl(179, 100%, 13%);
+  border: 2px solid hsl(0, 0%, 95%);
+  color: hsl(0, 0%, 95%);
+}
+
+.card__title,
+.card__text {
+  color: hsla(0, 0%, 100%, 0.75);
+  margin: 0;
+}
+
+.card__title {
+  font-family: "Big Shoulders Display";
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+
+.card__text {
+  font-family: "Lexend Deca";
+  font-size: 1rem;
+  padding: 2em 0;
+}
+
+.card__btn {
+  font-family: "Lexend Deca";
+  font-size: 1rem;
+  background: hsl(0, 0%, 95%);
+  border-radius: 100px;
+  text-decoration: none;
+  padding: 0.5em;
+}
+/* =====COLOR & FONTS===== */
+
+/* ===== LAYOUT ======= */
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 3(1fr);
+  margin-bottom: 3em;
+}
+
+.wrapper {
+  border: 2px;
+  border-radius: 10px;
+  overflow: hidden;
+  max-width: 980px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1em 1.5em;
+  max-width: 375px;
+}
+
+.card__img {
+  max-width: 64px;
+}
+
+.card__title{
+  margin-top: 1em;
+}
+
+.card__text {
+  display: flex;
+  justify-content: center;
+  align-items: space-between;
+}
+
+.card__btn {
+  width: 150px;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+/* ===== LAYOUT ======= */
+
+/* ===== Media Queries ======= */
+
+@media (min-width: 740px) {
+
+  /* Using display flex to change layout from cards stacked on top of each other to beside each other */
+  .wrapper {
+    display: flex; 
+  }
+
+  
+  .card {
+    padding: 1em 3em;
+    max-width: 375px;
+  }
+
+  .card__btn {
+    text-align: center;
+    max-width: 150px;
+  }
+}
+
+/* ===== Media Queries ======= */
