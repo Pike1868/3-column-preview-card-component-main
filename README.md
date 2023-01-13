@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Pike1868/3-column-preview-card-component-main)
-- Live Site URL: [Add live site URL here](https://pike1868.github.io/3-column-preview-card-component-main/)
+- Solution URL: [https://github.com/Pike1868/3-column-preview-card-component-main](https://github.com/Pike1868/3-column-preview-card-component-main)
+- Live Site URL: [https://pike1868.github.io/3-column-preview-card-component-main/](https://pike1868.github.io/3-column-preview-card-component-main/)
 
 ## My process
 I picked this challenge to practice layouts with css as I am still struggling with how to layout other projects and websites. I approached this by setting up the html first, trying to be more descriptive with the my class names so that it would help me when working on the css. Once I had that I attempted to do everything with only flex box and was running into a lot of issues. I then decided to brush up on css by taking Kevin Powell's Conquering Responsive Layouts course which really helped me approaching css. After taking this course I learned to breakdown how I tackled my css. I first worked on the colors and fonts and then focused on the layout portion. This really helped me break things down. After that I tackled the layout. 
