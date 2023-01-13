@@ -92,6 +92,8 @@
 
 /* ===== LAYOUT ======= */
 
+/* Updated length units from px to em and rem */
+
 body {
   display: flex;
   flex-direction: column;
